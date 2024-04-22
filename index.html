@@ -2,34 +2,35 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Github</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <img class="profile-avatar" src="./image/lucas.jpg" id="avatar" alt=".">
-            <h1 class="profile-name">Lucas Mario</h1>
-            <h2 class="profile-username">@MarioLucas</h2>
+            <img id="avatar" class="profile-avatar" src="https://via.placeholder.com/180x180" alt=".">
+            <h1 id="nome" class="profile-name">Lucas Mario</h1>
+            <h2 id="username" class="profile-username">@Mario</h2>
             <ul class="numbers">
                 <li class="numbers-item">
                     <h4>Repositórios</h4>
-                    5
+                    <span id="repos">5</span>
                 </li>
                 <li class="numbers-item">
                     <h4>Seguidores</h4>
-                    5
+                    <span id="followers">5</span>
                 </li>
                 <li class="numbers-item">
                     <h4>Seguindo</h4>
-                    5
+                    <span id="following">5</span>
                 </li>
             </ul>
-            <a href="#" class="profile-link">Ver no Github</a>
+            <a id="link" href="#" class="profile-link">Ver no Github</a>
         </div>
     </header>
-<script src="./main.js"></script>
-    
+
+    <script src="./main.js"></script>
 </body>
 </html>
